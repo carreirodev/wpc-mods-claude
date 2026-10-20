@@ -9,7 +9,7 @@
     {
       "name": "status-pills",
       "displayName": "Status Pills",
-      "description": "Pill strip by the prompt: model and effort, context, 5-hour and 7-day limits with their resets, project and branch",
+      "description": "Pill strip by the prompt: model and effort, context, 5-hour and 7-day limits with their resets, project and branch, prompt cache",
       "repository": "https://github.com/carreirodev/mod-status-pills",
       "source": { "source": "github", "repo": "carreirodev/mod-status-pills" }
     },

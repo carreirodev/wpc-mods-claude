@@ -8,7 +8,7 @@ A Claude Code marketplace that gathers my mods in one place. Adding the marketpl
 
 | Mod | Id | What it does |
 | --- | --- | --- |
-| [Status Pills](https://github.com/carreirodev/mod-status-pills) | `status-pills` | A band of pills by the prompt: model and effort, context, the 5-hour and 7-day limits with their resets, project and branch |
+| [Status Pills](https://github.com/carreirodev/mod-status-pills) | `status-pills` | A band of pills by the prompt: model and effort, context, the 5-hour and 7-day limits with their resets, project and branch, and the prompt cache |
 | [Agents Panel](https://github.com/carreirodev/mod-painel-agents) | `agents-panel` | A side pane with every agent of the session (model, effort, stopwatch and token usage) and its background shells |
 | [Prompt Enhancer](https://github.com/carreirodev/mod-prompt-enhancer) | `prompt-enhancer` | Enhance and Send buttons above the prompt: rewrites the draft in place, clearer for the AI, without adding anything |
 | [Plan Pill Progress](https://github.com/carreirodev/mod-plan-pill-progress) | `plan-progress` | Live plan progress bars above the prompt, with soft sounds |

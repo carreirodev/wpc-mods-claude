@@ -8,7 +8,7 @@ Um marketplace do Claude Code que reúne os meus mods num lugar só. Adicionar o
 
 | Mod | Identificador | O que faz |
 | --- | --- | --- |
-| [Status Pills](https://github.com/carreirodev/mod-status-pills/blob/main/README.pt-BR.md) | `status-pills` | Faixa de pílulas junto ao prompt: modelo e esforço, contexto, limites de 5 horas e 7 dias com as renovações, projeto e branch |
+| [Status Pills](https://github.com/carreirodev/mod-status-pills/blob/main/README.pt-BR.md) | `status-pills` | Faixa de pílulas junto ao prompt: modelo e esforço, contexto, limites de 5 horas e 7 dias com as renovações, projeto e branch, e o cache de prompt |
 | [Agents Panel](https://github.com/carreirodev/mod-painel-agents/blob/main/README.pt-BR.md) | `agents-panel` | Painel lateral com todos os agentes da sessão (modelo, esforço, cronômetro e uso de tokens) e os shells em segundo plano |
 | [Prompt Enhancer](https://github.com/carreirodev/mod-prompt-enhancer/blob/main/README.pt-BR.md) | `prompt-enhancer` | Botões Enhance e Send acima do prompt: reescreve o rascunho no lugar, mais claro para a IA, sem acrescentar nada |
 | [Plan Pill Progress](https://github.com/carreirodev/mod-plan-pill-progress/blob/main/README.pt-BR.md) | `plan-progress` | Barras de progresso do plano, ao vivo, acima do prompt, com sons suaves |
