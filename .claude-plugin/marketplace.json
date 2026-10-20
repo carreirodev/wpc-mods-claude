@@ -1,0 +1,42 @@
+{
+  "name": "wpc-mods-claude",
+  "description": "Mods do carreirodev para o Claude Code: instale só os que quiser",
+  "owner": {
+    "name": "carreirodev",
+    "url": "https://github.com/carreirodev"
+  },
+  "plugins": [
+    {
+      "name": "status-pills",
+      "displayName": "Status Pills",
+      "description": "Faixa de pílulas junto ao prompt: modelo e esforço, contexto, limites de 5 horas e 7 dias com as renovações, projeto e branch",
+      "repository": "https://github.com/carreirodev/mod-status-pills",
+      "source": { "source": "github", "repo": "carreirodev/mod-status-pills" }
+    },
+    {
+      "name": "agents-panel",
+      "displayName": "Agents Panel",
+      "description": "Painel lateral com todos os agentes da sessão (modelo, esforço, cronômetro e uso de tokens) e os shells em segundo plano",
+      "repository": "https://github.com/carreirodev/mod-painel-agents",
+      "source": { "source": "github", "repo": "carreirodev/mod-painel-agents" }
+    },
+    {
+      "name": "prompt-enhancer",
+      "displayName": "Prompt Enhancer",
+      "description": "Botões Enhance e Send acima do prompt: reescreve o rascunho no lugar, mais claro para a IA, sem acrescentar nada",
+      "repository": "https://github.com/carreirodev/mod-prompt-enhancer",
+      "source": { "source": "github", "repo": "carreirodev/mod-prompt-enhancer" }
+    },
+    {
+      "name": "plan-progress",
+      "displayName": "Plan Progress",
+      "description": "Barras de progresso do plano, ao vivo, acima do prompt, com sons suaves",
+      "repository": "https://github.com/carreirodev/mod-plan-pill-progress",
+      "source": {
+        "source": "git-subdir",
+        "url": "carreirodev/mod-plan-pill-progress",
+        "path": "plugins/plan-progress"
+      }
+    }
+  ]
+}
