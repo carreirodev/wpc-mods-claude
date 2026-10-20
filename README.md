@@ -11,13 +11,17 @@ A Claude Code marketplace that gathers my mods in one place. Adding the marketpl
 | [Status Pills](https://github.com/carreirodev/mod-status-pills) | `status-pills` | A band of pills by the prompt: model and effort, context, the 5-hour and 7-day limits with their resets, project and branch |
 | [Agents Panel](https://github.com/carreirodev/mod-painel-agents) | `agents-panel` | A side pane with every agent of the session (model, effort, stopwatch and token usage) and its background shells |
 | [Prompt Enhancer](https://github.com/carreirodev/mod-prompt-enhancer) | `prompt-enhancer` | Enhance and Send buttons above the prompt: rewrites the draft in place, clearer for the AI, without adding anything |
-| [Plan Progress](https://github.com/carreirodev/mod-plan-pill-progress) | `plan-progress` | Live plan progress bars above the prompt, with soft sounds |
+| [Plan Pill Progress](https://github.com/carreirodev/mod-plan-pill-progress) | `plan-progress` | Live plan progress bars above the prompt, with soft sounds |
 
 Each mod lives in its own repository, whose README covers it in detail.
 
 ## Install
 
-1. In a Claude Code session, add the marketplace:
+There are two ways, and they do the same thing: pick one.
+
+**Inside Claude Code**, in a session:
+
+1. Add the marketplace:
 
    ```
    /plugin marketplace add carreirodev/wpc-mods-claude
@@ -31,7 +35,21 @@ Each mod lives in its own repository, whose README covers it in detail.
 
    Or open `/plugin`, go to the **Discover** tab and pick from there.
 
-3. Start a new session, or run `/reload-plugins` in the open one.
+**From a terminal**, outside Claude Code:
+
+1. Add the marketplace:
+
+   ```
+   claude plugin marketplace add carreirodev/wpc-mods-claude
+   ```
+
+2. Install each mod you want by its id, for example:
+
+   ```
+   claude plugin install status-pills@wpc-mods-claude
+   ```
+
+Either way, start a new session afterwards, or run `/reload-plugins` in one that's already open.
 
 WSL has its own Claude Code install, separate from Windows: repeat the steps inside WSL too.
 

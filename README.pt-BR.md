@@ -8,16 +8,20 @@ Um marketplace do Claude Code que reúne os meus mods num lugar só. Adicionar o
 
 | Mod | Identificador | O que faz |
 | --- | --- | --- |
-| [Status Pills](https://github.com/carreirodev/mod-status-pills) | `status-pills` | Faixa de pílulas junto ao prompt: modelo e esforço, contexto, limites de 5 horas e 7 dias com as renovações, projeto e branch |
-| [Agents Panel](https://github.com/carreirodev/mod-painel-agents) | `agents-panel` | Painel lateral com todos os agentes da sessão (modelo, esforço, cronômetro e uso de tokens) e os shells em segundo plano |
-| [Prompt Enhancer](https://github.com/carreirodev/mod-prompt-enhancer) | `prompt-enhancer` | Botões Enhance e Send acima do prompt: reescreve o rascunho no lugar, mais claro para a IA, sem acrescentar nada |
-| [Plan Progress](https://github.com/carreirodev/mod-plan-pill-progress) | `plan-progress` | Barras de progresso do plano, ao vivo, acima do prompt, com sons suaves |
+| [Status Pills](https://github.com/carreirodev/mod-status-pills/blob/main/README.pt-BR.md) | `status-pills` | Faixa de pílulas junto ao prompt: modelo e esforço, contexto, limites de 5 horas e 7 dias com as renovações, projeto e branch |
+| [Agents Panel](https://github.com/carreirodev/mod-painel-agents/blob/main/README.pt-BR.md) | `agents-panel` | Painel lateral com todos os agentes da sessão (modelo, esforço, cronômetro e uso de tokens) e os shells em segundo plano |
+| [Prompt Enhancer](https://github.com/carreirodev/mod-prompt-enhancer/blob/main/README.pt-BR.md) | `prompt-enhancer` | Botões Enhance e Send acima do prompt: reescreve o rascunho no lugar, mais claro para a IA, sem acrescentar nada |
+| [Plan Pill Progress](https://github.com/carreirodev/mod-plan-pill-progress/blob/main/README.pt-BR.md) | `plan-progress` | Barras de progresso do plano, ao vivo, acima do prompt, com sons suaves |
 
 Cada mod mora no seu próprio repositório, com o README dele explicando o uso em detalhe.
 
 ## Instalar
 
-1. Numa sessão do Claude Code, adicione o marketplace:
+Há dois jeitos, e os dois fazem a mesma coisa: escolha um.
+
+**Dentro do Claude Code**, numa sessão:
+
+1. Adicione o marketplace:
 
    ```
    /plugin marketplace add carreirodev/wpc-mods-claude
@@ -31,7 +35,21 @@ Cada mod mora no seu próprio repositório, com o README dele explicando o uso e
 
    Ou abra `/plugin`, vá na aba **Discover** e escolha por lá.
 
-3. Abra uma sessão nova, ou rode `/reload-plugins` na sessão aberta.
+**Pelo terminal**, fora do Claude Code:
+
+1. Adicione o marketplace:
+
+   ```
+   claude plugin marketplace add carreirodev/wpc-mods-claude
+   ```
+
+2. Instale cada mod que quiser pelo identificador, por exemplo:
+
+   ```
+   claude plugin install status-pills@wpc-mods-claude
+   ```
+
+De um jeito ou do outro, depois abra uma sessão nova, ou rode `/reload-plugins` numa sessão já aberta.
 
 O WSL tem a sua própria instalação do Claude Code, separada da do Windows: repita os passos dentro do WSL também.
 

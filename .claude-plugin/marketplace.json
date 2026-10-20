@@ -29,7 +29,7 @@
     },
     {
       "name": "plan-progress",
-      "displayName": "Plan Progress",
+      "displayName": "Plan Pill Progress",
       "description": "Barras de progresso do plano, ao vivo, acima do prompt, com sons suaves",
       "repository": "https://github.com/carreirodev/mod-plan-pill-progress",
       "source": {
